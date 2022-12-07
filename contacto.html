@@ -13,26 +13,56 @@
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
         </h2>
     </div>
-    <div class="formulario">
-        <form action="/" method="post">
-        <p>
-            <label for="nombre">Name</label>
-            <input type="text" name="nombre" id="nombre">
-        </p>
-        
-        <p>
-            <label for="edad">Edad</label>
-            <input type="number" name="edad" id="edad">
-        </p>
+    <div class="contenedor">
+   
+    <div id="container-formulario">
 
-        <p>
-            <label for="">Comentarios:</label>
-            <textarea name="comentarios" id="comentarios" rows="5" cols="25">Comentario de prueba</textarea>
-        </p>
-
-        
-
-        </form>
+              <form>
+                <div class="etiqueta">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" required/>
+                  </div>
+                  <div class="etiqueta">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" name="telefono" id="telefono"/>
+                  </div>
+                  <div class="etiqueta">
+                    <label for="mail">Email</label>
+                    <input type="mail" name="mail" id="mail" required/>
+                  </div>
+                <div class="etiqueta">
+                <label for="seleccion">Dinos que necesitas</label>
+                    <select name="seleccion" id="seleccion">
+                        <option value="intro" selected>Selecciona tu opción</option>
+                        <option value="info-club">Información sobre nuestro club</option>
+                        <option value="actividades">Apuntarme a actividades</option>
+                        <option value="otros">Otros</option>    
+                     </select>
+                </div>
+                <div class="parrafo">
+    <p>Si has seleccionado apuntarte a alguna actividad, elige la fecha en la que te gustaría realizarla:</p>
+</div>
+    <div>
+        <label for="fecha">Fecha</label>
+        <input type="date" name="fecha" id="fecha">
     </div>
+
+                  <div class="etiqueta">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" rows="5" cols="25">Escribe aquí tu mensaje</textarea>
+                  </div>
+                  <div class="etiqueta">
+                    <label>Message</label>
+                    <textarea rows="5" name="message"></textarea>
+                  </div> 
+
+                  <div class="etiqueta">
+                  <button name="enviar" type="submit">
+                    Enviar
+                </button>
+                </div>
+              </form>
+            </div>
+            </div>
 </body>
 </html>
