@@ -5,40 +5,24 @@
     /* background-color: purple; */
     border: 1px solid black;
     width: 25rem;
-    
   }
   
- .envelope {
-    width: 20rem;
-    height: 20rem; 
-    margin: 0 auto;
-    position: relative;
-    background-image: url(./image/contacto/envelope.png);
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position: center center; 
-} 
-
- .imagen  {
-    width: 20rem;
-    height: 20rem; 
-    margin: 0 auto;
-    position: relative;
-    
-} 
-  .introduccion-formulario {
+  .envelope img {
+    width: 15rem;
+    height: 15rem;
+  }
+  /* .introduccion-formulario {
     margin: 4rem;
     
-  }
+  } */
   .container-formulario {
-    /* z-index: 1;  */
+    
     display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
   }
-
   
   /* .etiqueta label, input {
     line-height: 1.5rem;
