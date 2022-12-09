@@ -1,0 +1,20 @@
+
+
+#caja{
+    
+    background-color: rgb(156, 226, 226);
+    height:100rem;
+   
+   
+}
+#fotos{
+    list-style-type: none;
+    text-align: center;
+    padding-top: 20rem;
+    
+}
+li{
+    display: inline;
+    padding-right: 4rem;
+   
+}

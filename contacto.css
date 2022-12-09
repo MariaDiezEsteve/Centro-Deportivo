@@ -1,0 +1,43 @@
+.contenedor {
+    /* width: 40rem; */
+    margin: 0 auto;
+    padding: 5rem;
+    background-color: purple;
+    width: 25rem;
+}
+
+.introduccion-formulario {
+    margin: 4rem;
+    
+}
+.container-formulario {
+    
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2.5rem;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+input, textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+} 
+
+textarea {
+    resize: none;
+}
+
+/*.boton_envio {
+    color: white;
+    background-color: #009e93;
+    border-radius: 0.2rem;
+    border: 0.1rem solid #009e93;
+    padding: 0.9rem;
+    font-size: 1rem;
+} */
