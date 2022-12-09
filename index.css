@@ -1,2 +1,176 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+/* -------------------EStilos barra del menu------------------------- */
+
+.barra_menu {
+  background: #12394f;
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: flex-end;
+  align-items: center;
+  height: 5rem;
+  padding: 2rem 10%;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.comonbike {
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  letter-spacing: .2rem;
+}
+
+.comonbike:hover {
+  transform: scale(1.2);
+}
+
+.nav-links {
+  list-style: none;
+  transition: all 0.3s;
+}
+
+.items_menu {
+  display: inline-block;
+  padding: 0 2rem;
+}
+
+.items_menu:hover {
+  transform: scale(1.1);
+}
+
+.enlace_menu {
+  font-size: 800;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn button {
+  margin-left: 20px;
+  font-weight: 800;
+  color: #3c3c3c;
+  background: #fff;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+}
+
+.btn button:hover {
+  transform: scale(1.1);
+}
+
+/* -------------------EStilos barra del menu------------------------- */
+.informacion_home{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    background: url(./img/bike.png);
+    background-position: center;
+}
+
+.parrafo_banner{
+    position: absolute;
+    font-size: 6rem;
+    font-weight: 800;
+    font-family: "Bebas Neue", sans-serif;
+    color: #fff;
+    text-align: center;
+    top: 25%;
+    letter-spacing: .4rem;
+   
+}
+/* ----------------------separacion---------------------- */
+.separacion{
+  width: 100%;
+  background: rgb(251,251,251);
+  background: linear-gradient(0deg, rgba(251,251,251,0.5578606442577031) 0%, rgba(23,23,25,0.2665441176470589) 100%);
+  height: 3rem;
+}
+
+/* ----------------------contenido---------------------- */
+.contenido{
+  width: 100%;
+  height: 70vh;
+  background: #fbfbfb;
+}
+.contenido_padre{
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.contenido_hijo{
+  margin-top: 4rem;
+  width: 20rem;
+  height: 20rem;
+  border: 1px solid #506e55;
+  border-radius: 15%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------- Estilos footer----------------------- */
+.footer_contenedor {
+  width: 100%;
+  height: 10rem;
+  background: #506e55;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.item_footer {
+  width: 25rem;
+  /* width: calc(100%/3); */
+  /* border: 1px solid #fff; */
+  color: #fff;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.enlace_footer {
+  font-size: 800;
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa-brands {
+  padding-top: 2rem;
+  margin-left: 1rem;
+  font-size: 2rem;
+}
+
+.fa-brands:hover {
+  transform: scale(1.2);
+}
+
+.parrafo_footer {
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+}
