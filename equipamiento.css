@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Slab:wght@100&family=Ubuntu:wght@700&display=swap');
+
 *{
     margin: 0;
    
@@ -6,9 +10,9 @@
     background-color: #afbcbb;
 }
 .primero img{
-    width: 10rem;
-    height: 10rem;
-    margin: 10rem;
+    width: 40%;
+    height: 40%;
+    margin: 4rem;
     margin-left: 7rem;
 
 
@@ -16,8 +20,20 @@
 h2{
     font-family: "Bebas Neue", sans-serif;
     font-size: 4rem;
-    text-align: center;
+}
+
+h3{
+    font-family: "Montserrat", sans-serif;
+    padding: 5%;
+    font-size: 1.4rem;
    
+}
+
+.equipamiento{
+    text-align: center;
+    padding: 2rem;
+    color: #12394f;
+
 }
 
 .primero .segondo{
@@ -29,11 +45,14 @@ h2{
     
     
 }
-.primero .segondo h4{
-    display: inline-block;
-    
-}
+
 .primero .segondo .tercero{
-    width: 25rem;
+    width: 20rem;
+    height: 15rem;
 }
-.
+
+p {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
