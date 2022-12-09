@@ -9,14 +9,53 @@
 .primero{
     background-color: #afbcbb;
 }
+/*
 .primero img{
     width: 40%;
     height: 40%;
     margin: 4rem;
     margin-left: 7rem;
-
-
+    border : 0.9rem double #548bb0;
+    border-radius: 32%;
 }
+*/
+
+.segondo-img{
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    position: relative;
+    outline-offset: -1rem;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+.imagen_img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    transition: transform 0.25s;
+    z-index: -1;
+    border: double 0.5rem #506e55;
+    border-radius: 30%;
+    
+}
+
+.segondo-img:hover .imagen_img {
+    transform: scale(1.5);
+   
+}
+
+
+img {
+    object-fit: scale-down;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+}
+
+
+
 h2{
     font-family: "Bebas Neue", sans-serif;
     font-size: 4rem;
@@ -24,8 +63,9 @@ h2{
 
 h3{
     font-family: "Montserrat", sans-serif;
-    padding: 5%;
+    padding: 1rem;
     font-size: 1.4rem;
+   
    
 }
 
@@ -49,10 +89,16 @@ h3{
 .primero .segondo .tercero{
     width: 20rem;
     height: 15rem;
+    
 }
 
 p {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+.tercero{
+    flex: content;
 }
