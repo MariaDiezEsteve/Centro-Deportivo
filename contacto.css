@@ -4,9 +4,12 @@
     padding: 2.5rem;
     /* background-color: purple; */
     border: 1px solid black;
-    width: 25rem;
+    width: 30rem;
   }
   
+  .envelope {
+    text-align: center;
+  }
   .envelope img {
     width: 15rem;
     height: 15rem;
