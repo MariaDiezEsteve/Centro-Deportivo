@@ -71,7 +71,7 @@ h3 {
 
 .imagen:hover .imagen_img {
     transform: scale(1.5);
-}
+} 
 
 
 img {
@@ -101,6 +101,20 @@ i {
    color: #548bb0;
    padding: 2.5%;
 }
+
+.details {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen_ruta{
+    width: 70%;
+    height: 70%;
+}
+
+
+
 /* .fa-map-location:before, .fa-map-marked:before {
     content: "\f5a0";
     border: 0.5rem solid black;
