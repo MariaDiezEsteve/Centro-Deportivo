@@ -8,61 +8,74 @@
     <link rel="stylesheet" href="contacto.css" />
 </head>
 <body>
-    <div class="introduccion-formulario">
-        <h2>CONTACTANOS!!
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-        </h2>
-    </div>
-    <div class="contenedor">
-   
-    <div id="container-formulario">
+  <div class="introduccion-formulario">
+      <h2>CONTACTANOS!!
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+      </h2>
+  </div>
+  <div class="contenedor">
+ <!-- Div para hacer un sobre -->
+ <div class="envelope">
+  <div class="top-side"></div>
+  <div class="left-side"></div>
+  <div class="imagen">
+    <img src="./image/contacto/envelope.png" alt="">
+  </div>
+  <div class="right-side"></div>
+  <div class="bottom-side"></div>
+  <!-- Final del fondo sobre -->
 
-              <form>
-                <div class="etiqueta">
-                    <label for="name">Nombre</label>
-                    <input type="text" name="name" id="name" required/>
-                  </div>
-                  <div class="etiqueta">
-                    <label for="telefono">Teléfono</label>
-                    <input type="tel" name="telefono" id="telefono"/>
-                  </div>
-                  <div class="etiqueta">
-                    <label for="mail">Email</label>
-                    <input type="mail" name="mail" id="mail" required/>
-                  </div>
-                <div class="etiqueta">
-                <label for="seleccion">Dinos que necesitas</label>
-                    <select name="seleccion" id="seleccion">
-                        <option value="intro" selected>Selecciona tu opción</option>
-                        <option value="info-club">Información sobre nuestro club</option>
-                        <option value="actividades">Apuntarme a actividades</option>
-                        <option value="otros">Otros</option>    
-                     </select>
+ </div>
+  <div id="container-formulario">
+
+            <form>
+              <div class="etiqueta">
+                  <!-- <label for="name">Nombre</label> -->
+                  <input class="input-formulario" type="text" name="name" id="name" placeholder="Nombre" required/>
                 </div>
-                <div class="parrafo">
-    <p>Si has seleccionado apuntarte a alguna actividad, elige la fecha en la que te gustaría realizarla:</p>
+                <div class="etiqueta">
+                  <!-- <label for="telefono">Teléfono</label> -->
+                  <input class="input-formulario" type="tel" name="telefono" id="telefono" placeholder="Teléfono"/>
+                </div>
+                <div class="etiqueta">
+                  <!-- <label for="mail">Email</label> -->
+                  <input class="input-formulario" type="mail" name="mail" id="mail" required placeholder="Email"/>
+                </div>
+              <div class="etiqueta">
+              <p>Dinos que necesitas</p>
+                  <select name="seleccion" id="seleccion">
+                      <option value="intro" selected>Selecciona tu opción</option>
+                      <option value="info-club">Información sobre nuestro club</option>
+                      <option value="actividades">Apuntarme a actividades</option>
+                      <option value="equipamiento">Alquilar equipamiento</option>
+                      <option value="otros">Otros</option>    
+                   </select>
+              </div>
+              <div class="parrafo">
+  <p>Si has seleccionado apuntarte a alguna actividad, elige la fecha en la que te gustaría realizarla:</p>
 </div>
-    <div>
-        <label for="fecha">Fecha</label>
-        <input type="date" name="fecha" id="fecha">
-    </div>
+  <div>
+      <!-- <label for="fecha">Fecha</label> -->
+      <input class="input-formulario" type="date" name="fecha" id="fecha">
+  </div>
 
-                  <div class="etiqueta">
-                    <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" id="mensaje" rows="5" cols="25">Escribe aquí tu mensaje</textarea>
-                  </div>
-                  <div class="etiqueta">
-                    <label>Message</label>
-                    <textarea rows="5" name="message"></textarea>
-                  </div> 
-
-                  <div class="etiqueta">
-                  <button name="enviar" type="submit">
-                    Enviar
-                </button>
+                <div class="etiqueta">
+                  <!-- <label for="mensaje">Mensaje?</label> -->
+                  <textarea class="input-formulario" name="mensaje" id="mensaje" rows="5" cols="25" placeholder="Escribe aquí tu mensaje"></textarea>
                 </div>
-              </form>
-            </div>
-            </div>
+
+                <div class="etiqueta">
+                <button name="enviar" type="submit">
+                  Enviar
+              </button>
+              </div>
+            </form>
+          </div>
+        </div>
+          <div class="condiciones-legales">
+            <input type="checkbox" name="checkbox" id="checkbox"/>
+            <label for="checkbox">Acepto las condiciones y el aviso legal</label>
+          </div>
+          
 </body>
 </html>
