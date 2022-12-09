@@ -11,10 +11,10 @@
     width: 15rem;
     height: 15rem;
   }
-  /* .introduccion-formulario {
-    margin: 4rem;
+  .introduccion-formulario {
+    margin: 2rem;
     
-  } */
+  } 
   .container-formulario {
     
     display: flex; 
