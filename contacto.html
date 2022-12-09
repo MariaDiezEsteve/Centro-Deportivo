@@ -34,16 +34,19 @@
 </header>
 <!-- ----------------------------Header igual para todos ----------------------- -->  
 
+
 <div class="introduccion-formulario">
   <h2>CONTACTANOS!!
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
   </h2>
 </div>
-<div class="contenedor">
-  <div class="envelope">
-    <img src="./image/contacto/envelope.png" alt="sobre">
-  </div>
 
+<div class="envelope">
+  <img src="./image/contacto/envelope.png" alt="sobre">
+ 
+
+<div class="contenedor">
+  
 <div id="container-formulario">
 
         <form>
@@ -60,16 +63,17 @@
               <input class="input-formulario" type="mail" name="mail" id="mail" required placeholder="Email"/>
             </div>
           <div class="etiqueta">
-          <p>Dinos que necesitas</p>
+          <p id="parrafo-option">Dinos que necesitas:</p>
               <select name="seleccion" id="seleccion">
                   <option value="intro" selected>Selecciona tu opción</option>
                   <option value="info-club">Información sobre nuestro club</option>
                   <option value="actividades">Apuntarme a actividades</option>
+                  <option value="equipamiento">Alquilar equipamiento</option>
                   <option value="otros">Otros</option>    
                </select>
           </div>
           <div class="parrafo">
-<p>Si has seleccionado apuntarte a alguna actividad, elige la fecha en la que te gustaría realizarla:</p>
+<p id="parrafo-fecha">Si has seleccionado apuntarte a alguna actividad, elige la fecha en la que te gustaría realizarla:</p>
 </div>
 <div>
   <!-- <label for="fecha">Fecha</label> -->
@@ -93,6 +97,8 @@
         <input type="checkbox" name="checkbox" id="checkbox"/>
         <label for="checkbox">Acepto las condiciones y el aviso legal</label>
       </div>
+    </div>
+
           
 </body>
 </html>
