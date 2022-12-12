@@ -1,43 +1,55 @@
-
-*{
-    font-family: "Montserrat", sans-serif;
-  font-weight: 800;
+#caja {
+  background-color: #afbcbb;
+  height: 100rem;
+}
+h2 {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-#caja{
-    
-    background-color: rgb(209, 189, 124);
-    height:100rem;
-   
-   
+.foto-montaña {
+  height: 30rem;
+  margin: 20rem;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
 }
-.foto-montaña{
-    height: 30rem;
-    margin: 20rem;
-    margin-bottom: 2rem;
-    border-radius: 2rem;
+p {
+  padding-top: 0.5rem;
+  padding-bottom: 4rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
-#ulfotos{
-    list-style-type: none;
-    text-align: center;
-    
-   
-   
-    
+#ulfotos {
+  list-style-type: none;
+  text-align: left;
+  margin-left: 2rem;
 }
-.imagen{
-height: 8rem;
-width: 8rem;
-border-radius: 10rem;
 
-
-
-
+.imagen {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 10rem;
+  margin-left: 7rem;
 }
- li{
-display: inline;
-    
- 
-   }  
-   
 
+li {
+  display: inline;
+  margin-left: 8em;
+}
+#Yorlin {
+  padding-right: rem;
+}
+#Jessica {
+  padding-left: 4rem;
+}
+#Maria {
+  padding-left: 4rem;
+}
+#Mohamed {
+  padding-left: 4rem;
+}
+#Xabier {
+  padding-left: 3rem;
+}
