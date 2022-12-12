@@ -116,11 +116,37 @@
 }
 .contenido_hijo{
   margin-top: 4rem;
-  width: 20rem;
-  height: 20rem;
+  width: 18rem;
+  height: 18rem;
   /* border: 1px solid #506e55; */
   border-radius: 15%;
+  filter: brightness(50%);
+  transition: all 1s;
+  cursor: pointer;
 }
+.contenido_hijo:hover{
+  filter: brightness(100%);
+}
+
+.contenido_padre-card{
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.texto-card{
+  /* border: 1px solid black; */
+  color: #fff;
+  font-size: 1.7rem;
+  text-align: center;
+  font-weight: 800;
+  position: absolute;
+  top: 16rem;
+}
+
+
+
 .hijo1{
   background: url(./img/acerca.jpg);
   background-size: cover;
@@ -152,7 +178,7 @@
 /* --------------------- Estilos footer----------------------- */
 .footer_contenedor {
   width: 100%;
-  height: 10rem;
+  height: 7rem;
   background: #506e55;
   display: flex;
   flex-direction: row;

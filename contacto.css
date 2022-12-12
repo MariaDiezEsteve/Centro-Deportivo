@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+  font-family: "Bebas Neue", sans-serif;
+  
+}
+
 .contenedor {
-    
+  
     border: 1px solid black;
     width: 30rem;
     padding: 2rem;
@@ -20,9 +28,9 @@
     width: 45rem;
     height: 45rem;
   }
-  .introduccion-formulario {
+  /* .introduccion-formulario {
     margin: 2rem;   
-  } 
+  }  */
   /* #container-formulario {
     
     display: flex; 
