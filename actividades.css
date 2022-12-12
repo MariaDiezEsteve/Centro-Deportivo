@@ -154,3 +154,14 @@ i {
         justify-content: center;
     }
 }
+
+/* @media screen and (min-width: 769px) and (max-width: 10px){
+    section{
+        width: 105%;
+    }
+    .path-colective {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+} */
