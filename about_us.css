@@ -26,14 +26,13 @@ p {
   text-align: left;
   margin-left: 2rem;
 }
+
 .imagen {
   height: 8rem;
   width: 8rem;
   border-radius: 10rem;
   margin-left: 7rem;
 }
-
-
 
 li {
   display: inline;
