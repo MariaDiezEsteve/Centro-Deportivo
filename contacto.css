@@ -58,16 +58,17 @@ h1 {
   } 
   input:focus, textarea:focus {
     outline: none;
-    border-bottom: 1px solid #5f5f5f;
+    border-bottom: 1px solid #272626;
   }
   input:hover, textarea:hover, select:hover{
-    background: rgb(245, 241, 241);
+    background: rgb(236, 232, 232);
   }
   
   input::placeholder, textarea::placeholder {
-    color: rgb(17, 16, 16);
+    color: rgb(0, 0, 0);
+    font-size: 1.01;
   } 
-  input[type="date"] {
+  input[type="date"]{
     font-size: 1.01rem;
   }
   select {
