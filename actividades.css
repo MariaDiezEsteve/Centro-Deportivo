@@ -144,7 +144,7 @@ i {
 }
 
 /* Responsive tablet */
-@media screen and (min-width: 481px) and (max-width: 768px){
+@media screen and (min-width: 481px) and (max-width: 1023px){
     section{
         width: 105%;
     }
@@ -155,13 +155,4 @@ i {
     }
 }
 
-/* @media screen and (min-width: 769px) and (max-width: 10px){
-    section{
-        width: 105%;
-    }
-    .path-colective {
-        display: grid;
-        grid-template-columns: auto auto;
-        justify-content: center;
-    }
-} */
+
