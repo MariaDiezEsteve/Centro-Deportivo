@@ -33,7 +33,7 @@
     <a class="btn" href="contacto.html"><button>Contacto</button></a>
 </header>
 <!-- ----------------------------Header igual para todos ----------------------- -->  
-
+<h1>Contáctanos</h1>
 <div class="envelope">
   <img src="./image/contacto/envelope.png" alt="sobre">
  
@@ -78,11 +78,11 @@
               <textarea class="input-formulario" name="mensaje" id="mensaje" rows="5" cols="25" placeholder="Escribe aquí tu mensaje"></textarea>
             </div>
 
-            <div class="etiqueta">
+            <!-- <div class="etiqueta">
             <button name="enviar" type="submit">
               Enviar
           </button>
-          </div>
+          </div> -->
         </form>
       </div>
     </div>
@@ -98,11 +98,16 @@
       <p>
         CONSERVACIÓN DE LOS DATOS: Los datos se conservan el tiempo estrictamente necesario para la relación y lo que le es exigible legalmente, siendo destruidos posteriormente mediante los procesos seguros de la organización.
       </p>
+      <p class="condiciones-legales">
+        <input type="checkbox" name="checkbox" id="checkbox"/>
+        <label for="checkbox">Acepto las condiciones y el aviso legal</label>
+      </p>
+      <div class="etiqueta">
+        <button class="boton-envio" name="enviar" type="submit">
+          Enviar
+      </button>
+      </div>
     </div>
-        <div class="condiciones-legales">
-          <input type="checkbox" name="checkbox" id="checkbox"/>
-          <label for="checkbox">Acepto las condiciones y el aviso legal</label>
-        </div>
           
 </body>
 </html>
