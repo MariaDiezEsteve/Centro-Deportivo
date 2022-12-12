@@ -2,19 +2,38 @@
 
 #caja{
     
-    background-color: rgb(156, 226, 226);
+    background-color: rgb(209, 189, 124);
     height:100rem;
    
    
 }
-#fotos{
+.foto-montaña{
+    height: 30rem;
+    margin: 20rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+}
+#ulfotos{
     list-style-type: none;
     text-align: center;
-    padding-top: 20rem;
+    
+   
+   
     
 }
-li{
-    display: inline;
-    padding-right: 4rem;
-   
+.imagen{
+height: 8rem;
+width: 8rem;
+border-radius: 10rem;
+
+
+
+
 }
+ li{
+display: inline;
+    
+ 
+   }  
+   
+
