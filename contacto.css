@@ -11,8 +11,6 @@ h1 {
   
 }
 
-
-
 .contenedor {
   
     /* border: 1px solid black; */
@@ -32,7 +30,7 @@ h1 {
     position: relative;     
   }
   .envelope img {
-    width: 40rem;
+    width: 45rem;
     height: 40rem;
   }
   /* .introduccion-formulario {
@@ -129,4 +127,8 @@ h1 {
   .boton-envio:hover {
     font-size: 1.05rem;
     cursor: pointer;
+  }
+
+  .formulario {
+    padding-top: 7rem;
   }
