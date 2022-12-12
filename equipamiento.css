@@ -4,7 +4,8 @@
 
 *{
     margin: 0;
-    
+   font-family: "Montserrat", sans-serif;
+   font-weight: 800;
    
 }
 .primero{
@@ -109,6 +110,10 @@ p {
 .segondo{
     width: 95%;
     height: 20rem;
+
+}
+
+@media screen and (max-width: 300px){
 
 }
 

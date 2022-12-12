@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Slab:wght@100&family=Ubuntu:wght@700&display=swap');
 
 * {
   padding: 0;
@@ -29,7 +30,7 @@
   font-size: 2rem;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 800;
-  letter-spacing: 0.2rem;
+  letter-spacing: .2rem;
 }
 
 .comonbike:hover {
@@ -51,9 +52,9 @@
 }
 
 .enlace_menu {
-  font-size: 800;
   color: #fff;
   text-decoration: none;
+  font-weight: 500; 
 }
 
 .btn button {
@@ -72,43 +73,40 @@
 }
 
 /* -------------------EStilos barra del menu------------------------- */
-.informacion_home {
-  height: 70vh;
-  display: flex;
-  justify-content: center;
-  background: url(./img/bike.png);
-  background-position: center;
+.informacion_home{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    background: url(./img/bike.png);
+    background-position: center;
 }
 
-.parrafo_banner {
-  position: absolute;
-  font-size: 6rem;
-  font-weight: 800;
-  font-family: "Bebas Neue", sans-serif;
-  color: #fff;
-  text-align: center;
-  top: 25%;
-  letter-spacing: 0.4rem;
+.parrafo_banner{
+    position: absolute;
+    font-size: 6rem;
+    font-weight: 800;
+    font-family: "Bebas Neue", sans-serif;
+    color: #fff;
+    text-align: center;
+    top: 25%;
+    letter-spacing: .4rem;
+   
 }
 /* ----------------------separacion---------------------- */
-.separacion {
+.separacion{
   width: 100%;
-  background: rgb(251, 251, 251);
-  background: linear-gradient(
-    0deg,
-    rgba(251, 251, 251, 0.5578606442577031) 0%,
-    rgba(23, 23, 25, 0.2665441176470589) 100%
-  );
+  background: rgb(251,251,251);
+  background: linear-gradient(0deg, rgba(251,251,251,0.5578606442577031) 0%, rgba(23,23,25,0.2665441176470589) 100%);
   height: 3rem;
 }
 
 /* ----------------------contenido---------------------- */
-.contenido {
+.contenido{
   width: 100%;
   height: 70vh;
   background: #fbfbfb;
 }
-.contenido_padre {
+.contenido_padre{
   width: 100%;
   height: 100%;
   /* border: 1px solid black; */
@@ -116,52 +114,68 @@
   justify-content: center;
   gap: 3rem;
 }
-.contenido_hijo {
+.contenido_hijo{
   margin-top: 4rem;
   width: 18rem;
   height: 18rem;
   /* border: 1px solid #506e55; */
   border-radius: 15%;
-  filter: brightness(50%);
+  filter: brightness(40%);
   transition: all 1s;
   cursor: pointer;
 }
-.contenido_hijo:hover {
+.contenido_hijo:hover{
   filter: brightness(100%);
 }
 
-.contenido_padre-card {
+.contenido_padre-card{
   /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
 }
-.texto-card {
+.texto-card{
   /* border: 1px solid black; */
   color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: .2rem;
   font-size: 1.7rem;
   text-align: center;
   font-weight: 800;
   position: absolute;
-  top: 16rem;
+  top: 17rem;
 }
 
-.hijo1 {
+
+
+.hijo1{
   background: url(./img/acerca.jpg);
   background-size: cover;
   background-position: center;
 }
-.hijo2 {
+.hijo2{
   background: url(./img/actividades.jpg);
   background-size: cover;
   background-position: center;
 }
-.hijo3 {
+.hijo3{
   background: url(./img/equipamiento.jpg);
   background-size: cover;
   background-position: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* --------------------- Estilos footer----------------------- */
 .footer_contenedor {
