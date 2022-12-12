@@ -1,0 +1,101 @@
+.contenedor {
+    
+    border: 1px solid black;
+    width: 30rem;
+    padding: 2rem;
+    position: absolute;
+    z-index: 1; 
+    top: 5.5rem;
+    left: 0;
+    right: 0rem;
+    margin: 0 auto;
+  }
+  
+  .envelope {
+    text-align: center;
+    position: relative;
+     
+  }
+  .envelope img {
+    width: 45rem;
+    height: 45rem;
+  }
+  .introduccion-formulario {
+    margin: 2rem;   
+  } 
+  /* #container-formulario {
+    
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+    } */
+  
+  #parrafo-option {
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+
+  #parrafo-fecha {
+    margin: 1.05rem auto;
+    text-align: left;
+  }
+
+  .etiqueta {
+    margin-top: 1.3rem;
+  } 
+  input:focus, textarea:focus {
+    outline: none;
+    border-bottom: 1px solid #5f5f5f;
+  }
+  input:hover, textarea:hover, select:hover{
+    background: rgb(245, 241, 241);
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: rgb(17, 16, 16);
+  } 
+  input[type="date"] {
+    font-size: 1.01rem;
+  }
+  select {
+    color: rgb(17, 16, 16);
+    background: #ddd;
+    opacity: 0.5;
+    padding: 0.35rem;
+  }
+  
+  .input-formulario {
+    padding: 0.4rem;
+    background: #ddd;
+    opacity: 0.5;
+    border: none;
+    border-bottom: 1px solid #c2c2c2;
+    width: 100%;
+  }
+  /* input, textarea { 
+    padding: 0.4rem;
+    background: #ddd;
+    opacity: 0.5;
+    border: none;
+    border-bottom: 1px solid #c2c2c2;
+    width: 100%;
+  } */
+  
+  textarea {
+    resize: none;
+  }
+  
+  .condiciones-legales {
+    padding: 0.4rem;
+    text-align: center;
+  }
+  /*.boton_envio {
+    color: white;
+    background-color: #009e93;
+    border-radius: 0.2rem;
+    border: 0.1rem solid #009e93;
+    padding: 0.9rem;
+    font-size: 1rem;
+  } */

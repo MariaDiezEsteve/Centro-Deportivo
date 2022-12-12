@@ -6,33 +6,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Contacto</title>
     <link rel="stylesheet" href="contacto.css" />
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="introduccion-formulario">
-        <h2>CONTACTANOS!!
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-        </h2>
+  <!-- ----------------------------Header igual para todos ----------------------- -->
+  <header class="barra_menu">
+    <div class="logo">
+        <p class="comonbike">COMONBIKE</p>
     </div>
-    <div class="formulario">
-        <form action="/" method="post">
-        <p>
-            <label for="nombre">Name</label>
-            <input type="text" name="nombre" id="nombre">
-        </p>
-        
-        <p>
-            <label for="edad">Edad</label>
-            <input type="number" name="edad" id="edad">
-        </p>
+    <nav>
+        <ul class="nav-links">
+            <li class="items_menu">
+                <a class="enlace_menu" href="index.html">Home</a>
+            </li>
+            <li class="items_menu">
+                <a class="enlace_menu" href="about_us.html">Nosotros</a>
+            </li>
+            <li class="items_menu">
+                <a class="enlace_menu" href="actividades.html">Actividades</a>
+            </li>
+            <li class="items_menu">
+                <a class="enlace_menu" href="equipamiento.html">Equipamiento</a>
+            </li>
+        </ul>
+    </nav>
+    <a class="btn" href="contacto.html"><button>Contacto</button></a>
+</header>
+<!-- ----------------------------Header igual para todos ----------------------- -->  
 
-        <p>
-            <label for="">Comentarios:</label>
-            <textarea name="comentarios" id="comentarios" rows="5" cols="25">Comentario de prueba</textarea>
-        </p>
 
-        
+<div class="introduccion-formulario">
+  <h2>CONTACTANOS!!
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+  </h2>
+</div>
 
+<div class="envelope">
+  <img src="./image/contacto/envelope.png" alt="sobre">
+ 
+
+<div class="contenedor">
+  
+<div id="container-formulario">
+
+        <form>
+          <div class="etiqueta">
+              <!-- <label for="name">Nombre</label> -->
+              <input class="input-formulario" type="text" name="name" id="name" placeholder="Nombre" required/>
+            </div>
+            <div class="etiqueta">
+              <!-- <label for="telefono">Teléfono</label> -->
+              <input class="input-formulario" type="tel" name="telefono" id="telefono" placeholder="Teléfono"/>
+            </div>
+            <div class="etiqueta">
+              <!-- <label for="mail">Email</label> -->
+              <input class="input-formulario" type="mail" name="mail" id="mail" required placeholder="Email"/>
+            </div>
+          <div class="etiqueta">
+          <p id="parrafo-option">Dinos que necesitas:</p>
+              <select name="seleccion" id="seleccion">
+                  <option value="intro" selected>Selecciona tu opción</option>
+                  <option value="info-club">Información sobre nuestro club</option>
+                  <option value="actividades">Apuntarme a actividades</option>
+                  <option value="equipamiento">Alquilar equipamiento</option>
+                  <option value="otros">Otros</option>    
+               </select>
+          </div>
+          <div class="parrafo">
+<p id="parrafo-fecha">Si has seleccionado apuntarte a alguna actividad, elige la fecha en la que te gustaría realizarla:</p>
+</div>
+<div>
+  <!-- <label for="fecha">Fecha</label> -->
+  <input class="input-formulario" type="date" name="fecha" id="fecha">
+</div>
+
+            <div class="etiqueta">
+              <!-- <label for="mensaje">Mensaje?</label> -->
+              <textarea class="input-formulario" name="mensaje" id="mensaje" rows="5" cols="25" placeholder="Escribe aquí tu mensaje"></textarea>
+            </div>
+
+            <div class="etiqueta">
+            <button name="enviar" type="submit">
+              Enviar
+          </button>
+          </div>
         </form>
+      </div>
     </div>
+      <div class="condiciones-legales">
+        <input type="checkbox" name="checkbox" id="checkbox"/>
+        <label for="checkbox">Acepto las condiciones y el aviso legal</label>
+      </div>
+    </div>
+
+          
 </body>
 </html>
