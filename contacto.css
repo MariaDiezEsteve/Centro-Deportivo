@@ -16,7 +16,7 @@ h1 {
     padding: 2rem;
     position: absolute;
     z-index: 1; 
-    top: 5.3rem;
+    top: 4rem;
     left: 0;
     right: 0rem;
     margin: 0 auto;
@@ -28,8 +28,8 @@ h1 {
     position: relative;     
   }
   .envelope img {
-    width: 41rem;
-    height: 41rem;
+    width: 40rem;
+    height: 40rem;
   }
   /* .introduccion-formulario {
     margin: 2rem;   
