@@ -1,32 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
-body {
+h1 {
   font-family: "Bebas Neue", sans-serif;
+  text-align: left;
   
 }
 
+
+
 .contenedor {
   
-    border: 1px solid black;
-    width: 30rem;
+    /* border: 1px solid black; */
+    width: 25rem;
     padding: 2rem;
     position: absolute;
     z-index: 1; 
-    top: 5.5rem;
+    top: 4rem;
     left: 0;
     right: 0rem;
     margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
   }
   
   .envelope {
     text-align: center;
-    position: relative;
-     
+    position: relative;     
   }
   .envelope img {
-    width: 45rem;
-    height: 45rem;
+    width: 40rem;
+    height: 40rem;
   }
   /* .introduccion-formulario {
     margin: 2rem;   
@@ -95,15 +98,30 @@ body {
     resize: none;
   }
   
-  .condiciones-legales {
-    padding: 0.4rem;
-    text-align: center;
+  .parrafo-proteccionDatos {
+    display: grid;
+    grid-template-columns: auto;
+    width: 45rem;
+    padding: 1.7rem;
+    margin: 0 auto;
+    font-size: 0.75rem;
+    line-height: 1.3rem;
   }
-  /*.boton_envio {
+
+  .condiciones-legales {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .boton-envio {
     color: white;
     background-color: #009e93;
     border-radius: 0.2rem;
     border: 0.1rem solid #009e93;
     padding: 0.9rem;
     font-size: 1rem;
-  } */
+  }
+  .boton-envio:hover {
+    font-size: 1.05rem;
+    cursor: pointer;
+  }

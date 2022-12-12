@@ -144,13 +144,13 @@ i {
 }
 
 /* Responsive tablet */
-@media screen and (max-width: 768px){
+@media screen and (min-width: 481px) and (max-width: 768px){
     section{
         width: 105%;
     }
     .path-colective {
         display: grid;
-       
+        grid-template-columns: auto auto;
         justify-content: center;
     }
 }
