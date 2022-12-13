@@ -131,3 +131,37 @@
   /* .formulario {
     padding-top: 7rem;
   } */
+
+    /* Responsive tablet */
+/* @media screen and (min-width: 481px) and (max-width: 1023px) {
+
+} */
+
+
+/* Responsive mobile */
+  @media screen and (max-width: 480px) {
+    .envelope {
+      display: none;
+    }
+
+    .div-fondoDatos {
+      margin-top: 35rem;
+    }
+
+    .contenedor {
+      background-color: #afbcbb;
+    }
+
+    .formulario {
+      background-color: white;
+      padding: 1rem;
+    }
+    .parrafo-proteccionDatos {
+      /* padding: 0.1rem; */
+      width: 30rem;
+    padding: 4.5rem;
+    margin: 0 auto; 
+    font-size: 0.65rem;
+    }
+  }
+
