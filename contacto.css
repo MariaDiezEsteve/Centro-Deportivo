@@ -5,24 +5,30 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
 }
-h1 {
+
+.parrafo-introduccion, .envelope, .div-fondoDatos {
+  background-color: #afbcbb;
+}
+
+.parrafo-introduccion {
   /* font-family: "Bebas Neue", sans-serif; */
   text-align: left;
-  
+  line-height: 2.5rem;
+  padding: 2rem; 
 }
 
 .contenedor {
   
     /* border: 1px solid black; */
-    width: 25rem;
+    width: 27rem;
     padding: 2rem;
     position: absolute;
     z-index: 1; 
-    top: 4rem;
+    top: 18rem;
     left: 0;
     right: 0rem;
     margin: 0 auto;
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
   }
   
   .envelope {
@@ -33,26 +39,17 @@ h1 {
     width: 45rem;
     height: 40rem;
   }
-  /* .introduccion-formulario {
-    margin: 2rem;   
-  }  */
-  /* #container-formulario {
-    
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-
-    } */
   
   #parrafo-option {
     margin-bottom: 1rem;
     text-align: left;
+    font-size: 0.9rem;
   }
 
   #parrafo-fecha {
     margin: 1.05rem auto;
     text-align: left;
+    font-size: 0.9rem;
   }
 
   .etiqueta {
@@ -67,12 +64,15 @@ h1 {
   }
   
   input::placeholder, textarea::placeholder {
-    color: rgb(0, 0, 0);
+    color: rgb(31, 28, 28);
     font-size: 1.01;
   } 
-  input[type="date"]{
+
+  input, textarea {
+    color: black;
     font-size: 1.01rem;
   }
+  
   select {
     color: rgb(17, 16, 16);
     background: #ddd;
@@ -104,13 +104,12 @@ h1 {
   .parrafo-proteccionDatos {
     display: grid;
     grid-template-columns: auto;
-    width: 45rem;
-    padding: 1.7rem;
+    width: 43rem;
+    padding: 2rem;
     margin: 0 auto;
-    font-size: 0.75rem;
+    font-size: 0.70rem;
     line-height: 1.3rem;
   }
-
   .condiciones-legales {
     margin-top: 1rem;
     font-size: 0.9rem;
@@ -129,6 +128,39 @@ h1 {
     cursor: pointer;
   }
 
-  .formulario {
+  /* .formulario {
     padding-top: 7rem;
+  } */
+
+    /* Responsive tablet */
+/* @media screen and (min-width: 481px) and (max-width: 1023px) {
+
+} */
+
+
+/* Responsive mobile */
+  @media screen and (max-width: 480px) {
+    .envelope {
+      display: none;
+    }
+
+    .div-fondoDatos {
+      margin-top: 35rem;
+    }
+
+    .contenedor {
+      background-color: #afbcbb;
+    }
+
+    .formulario {
+      background-color: white;
+      padding: 1rem;
+    }
+    .parrafo-proteccionDatos {
+      padding: 1.8rem;
+      width: 25rem;
+    margin: 0 auto; 
+    font-size: 0.63rem;
+    }
   }
+
