@@ -120,7 +120,7 @@
   height: 18rem;
   /* border: 1px solid #506e55; */
   border-radius: 15%;
-  filter: brightness(40%);
+  filter: brightness(30%);
   transition: all 1s;
   cursor: pointer;
 }
