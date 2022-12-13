@@ -157,11 +157,10 @@
       padding: 1rem;
     }
     .parrafo-proteccionDatos {
-      /* padding: 0.1rem; */
-      width: 30rem;
-    padding: 4.5rem;
+      padding: 1.8rem;
+      width: 25rem;
     margin: 0 auto; 
-    font-size: 0.65rem;
+    font-size: 0.63rem;
     }
   }
 
