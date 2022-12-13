@@ -4,12 +4,13 @@
 
 * {
     margin: 0;
-    background-color: #afbcbb;
 }
 
 section{
     width: 100%;
+    background-color: #afbcbb;
 }
+
 
 h1 {
     font-family: "Bebas Neue", sans-serif;
