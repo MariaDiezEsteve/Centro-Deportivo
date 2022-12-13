@@ -5,12 +5,16 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
 }
+
+.parrafo-introduccion, .envelope, .div-fondoDatos {
+  background-color: #afbcbb;
+}
+
 .parrafo-introduccion {
   /* font-family: "Bebas Neue", sans-serif; */
   text-align: left;
   line-height: 2.5rem;
-  padding: 2rem;
-  
+  padding: 2rem; 
 }
 
 .contenedor {
