@@ -235,15 +235,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 /* --------------------- Estilos footer----------------------- */
 .footer_contenedor {
   width: 100%;
@@ -283,3 +274,40 @@
   text-align: center;
   color: #fff;
 }
+
+
+
+
+/* Responsive tablet */
+@media screen and (min-width: 481px) and (max-width: 1023px){
+  /* ------ barra menu ------ */
+  .barra_menu {
+    padding: 1rem 5%;
+}
+.items_menu {
+  padding: 0 1rem;
+}
+  
+
+
+
+}
+
+/* Responsive mobile */
+
+@media screen and (max-width: 480px){
+  .barra_menu {
+    justify-content: center;
+    align-items: center;
+    height: 13rem;
+    padding: 2rem 10%;
+    flex-direction: column;
+  }
+  .items_menu {
+    display: block;
+    text-align: center;
+    margin: 0.3rem 0;
+    border-bottom: 1px solid white;
+}
+}
+
