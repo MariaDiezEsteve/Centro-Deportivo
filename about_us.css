@@ -1,55 +1,63 @@
-#caja {
+#caja11 {
   background-color: #afbcbb;
-  height: 100rem;
+  height: 65rem;
 }
-h2 {
+#sobre-nosotros1 {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
+  color: #12394f;
+}
 
-.foto-montaña {
+.foto-montaña1 {
   height: 30rem;
-  margin: 20rem;
+  margin-left: 12rem ;
   margin-top: 0rem;
   margin-bottom: 2rem;
   border-radius: 2rem;
 }
-p {
+#lorem {
   padding-top: 0.5rem;
   padding-bottom: 4rem;
-  margin-left: 10rem;
+  margin-left: 14rem;
   margin-right: 10rem;
 }
 #ulfotos {
   list-style-type: none;
-  text-align: left;
-  margin-left: 2rem;
+  display: inline;
+
+ 
 }
 
-.imagen {
+.imagen1 {
   height: 8rem;
   width: 8rem;
   border-radius: 10rem;
-  margin-left: 7rem;
+  margin-left: 5rem;
 }
 
-li {
-  display: inline;
-  margin-left: 8em;
-}
+
 #Yorlin {
-  padding-right: rem;
+  
+  padding-left: 8rem;
+  margin-bottom: -1rem;
 }
 #Jessica {
-  padding-left: 4rem;
+  padding-left: 20rem;
+  margin-bottom: -1rem;
 }
 #Maria {
-  padding-left: 4rem;
+  padding-left: 34rem;
+  margin-bottom: -1.5rem;
 }
 #Mohamed {
-  padding-left: 4rem;
+  padding-left: 47rem;
+   margin-bottom: -1.5rem;
 }
 #Xabier {
-  padding-left: 3rem;
+  padding-left: 61rem;
 }
