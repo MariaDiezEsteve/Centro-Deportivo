@@ -3,14 +3,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Slab:wght@100&family=Ubuntu:wght@700&display=swap');
 
 *{
-    margin: 0;
+   margin: 0;
    font-family: "Montserrat", sans-serif;
    font-weight: 800;
    
 }
+
 .primero{
     background-color: #afbcbb;
+    width: 100%;
     
+}
+
+
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4rem;
+}
+.equipamiento{
+    text-align: center;
+    padding: 2rem;
+    color: #12394f;
+
+}
+
+h3{
+    font-family: "Montserrat", sans-serif;
+    padding: 2.5rem;
+    font-size: 1.4rem;   
+}
+
+.segondo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    width: 95%;
+    height: 20rem;    
 }
 
 .segondo-img{
@@ -21,75 +50,38 @@
     outline-offset: -1rem;
     overflow: hidden;
     isolation: isolate;
-    margin: 7rem;
+    margin: 5rem;
     background-color: #afbcbb;
     box-shadow: 0 0 4rem #506e55;
     border-radius: 3rem;
-
 }
 
 .imagen_img {
-    width: 90%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.25s;
     z-index: -1;
     border: double 0.5rem #506e55;
-    border-radius: 30%;
-    
-    
+    border-radius: 30%;  
 }
 
 .segondo-img:hover .imagen_img {
     transform: scale(1.5);
-   
 }
-
 
 img {
     object-fit: scale-down;
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     text-align: center;
 }
 
+.tercero{
+    background-color: #afbcbb;
+    box-shadow: 0 0 4rem #506e55;
+    border-radius: 3rem;
 
-
-h2{
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 4rem;
-}
-
-h3{
-    font-family: "Montserrat", sans-serif;
-    padding: 1rem;
-    font-size: 1.4rem;
-    margin-top: 2rem;
-   
-   
-}
-
-.equipamiento{
-    text-align: center;
-    padding: 2rem;
-    color: #12394f;
-
-}
-
-.primero .segondo{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    text-align: center;
-    
-    
-    
-}
-
-.primero .segondo .tercero{
-    width: 20rem;
-    height: 15rem;
-    
 }
 
 p {
@@ -97,25 +89,45 @@ p {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     padding-left: 5rem;
-    padding-right: 1rem;
-    
+    padding-right: 3rem;
+    margin-bottom: 2.5rem;    
 }
-.tercero{
-    flex: content;
-    background-color: #afbcbb;
-    box-shadow: 0 0 4rem #506e55;
-    border-radius: 3rem;
 
-}
-.segondo{
-    width: 95%;
-    height: 20rem;
-
-}
 
 @media screen and (max-width: 480px){
-    
+    .primero{
+      width: 100%;
+      height: 100%;
+    }
+    .segondo{
+       display: flex;
+       flex-direction: column;
+       height: 100%;
+    }
+    .segondo-img {
+        overflow:visible;   
+    }
+    .tercero {
+     width:85%;
+    margin-bottom: 2rem;
+     padding-right: 1rem;   
+    }
+    .tercero p {
+    font-size: 0.7rem;
+    text-align: center;
+   }
 }
+
+
+     
+
+    
+
+
+
+
+
+
 
 
 
