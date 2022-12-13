@@ -8,6 +8,8 @@
 h1 {
   /* font-family: "Bebas Neue", sans-serif; */
   text-align: left;
+  /* margin-top: 3rem; */
+  padding: 2rem;
   
 }
 
@@ -18,11 +20,11 @@ h1 {
     padding: 2rem;
     position: absolute;
     z-index: 1; 
-    top: 4rem;
+    top: 14rem;
     left: 0;
     right: 0rem;
     margin: 0 auto;
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
   }
   
   .envelope {
@@ -129,6 +131,6 @@ h1 {
     cursor: pointer;
   }
 
-  .formulario {
+  /* .formulario {
     padding-top: 7rem;
-  }
+  } */
