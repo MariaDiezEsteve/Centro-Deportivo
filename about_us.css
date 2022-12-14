@@ -5,13 +5,13 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 
 .general{
   background-color: #afbcbb;
 }
-
 
 #sobre-nosotros1 {
   text-align: center;
@@ -89,3 +89,5 @@ h4{
   margin: 1.2rem;
   font-family: "Monserrat", sans-serif;
 }
+
+
