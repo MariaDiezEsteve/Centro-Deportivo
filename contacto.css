@@ -4,9 +4,11 @@
 *{
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
+  margin: 0;
+  padding: 0;
 }
 
-.parrafo-introduccion, .envelope, .div-fondoDatos {
+.contenedor-total {
   background-color: #afbcbb;
 }
 
@@ -18,8 +20,6 @@
 }
 
 .contenedor {
-  
-    /* border: 1px solid black; */
     width: 27rem;
     padding: 2rem;
     position: absolute;
@@ -88,19 +88,11 @@
     border-bottom: 1px solid #c2c2c2;
     width: 100%;
   }
-  /* input, textarea { 
-    padding: 0.4rem;
-    background: #ddd;
-    opacity: 0.5;
-    border: none;
-    border-bottom: 1px solid #c2c2c2;
-    width: 100%;
-  } */
   
   textarea {
     resize: none;
   }
-  
+
   .parrafo-proteccionDatos {
     display: grid;
     grid-template-columns: auto;
@@ -133,19 +125,46 @@
   } */
 
     /* Responsive tablet */
-/* @media screen and (min-width: 481px) and (max-width: 1023px) {
 
-} */
+@media screen and (min-width: 481px) and (max-width: 1023px) {
+  .envelope img {
+    width: 42rem;
+    height: 36rem;
+  }
+  .contenedor {
+    top: 17rem;
+  }
+#container-formulario {
+  padding: 1.5rem;
+}
+  input::placeholder, textarea::placeholder {
+    color: black;
+    font-size: 0.8;
+  } 
+
+  input, textarea {
+    color: black;
+    font-size: 0.8rem;
+  }
+
+  .parrafo-proteccionDatos {
+    width: 35rem;
+    margin: 0 auto; 
+    font-size: 0.70rem;
+  }
+
+} 
 
 
 /* Responsive mobile */
+
   @media screen and (max-width: 480px) {
     .envelope {
       display: none;
     }
 
     .div-fondoDatos {
-      margin-top: 35rem;
+      margin-top: 28rem;
     }
 
     .contenedor {

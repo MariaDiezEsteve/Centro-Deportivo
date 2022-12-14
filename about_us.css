@@ -4,12 +4,16 @@
 
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
 }
 
-.general{
+
+section{
   background-color: #afbcbb;
-}
 
+}
 
 #sobre-nosotros1 {
   text-align: center;
@@ -30,34 +34,83 @@ h1 {
 .foto-montaña1 {
   height: 30rem;
   border-radius: 2rem;
-} 
+}
 
-.nosotros-descripcion {
+.nosotros-descripcion, .parte-equipo {
   text-align: center;
   margin-left: 20rem;
   margin-right: 22rem;
   margin-top: 2rem;
 
 }
+
 .equipo-titulo{
-  text-align: center;
   color: #12394f;
+  padding: 1rem;
 }
 
 h3{
   font-family: "Montserrat", sans-serif;
   padding: 4%;
   font-size: 1.8rem;
+  text-align: center;
 }
 
-.fotos{
-  display: grid;
+.miembros{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.imagen1 {
-  height: 8rem;
-  width: 8rem;
-  border-radius: 10rem;
-  margin-left: 5rem;
+.equipo-miembro{
+  margin: 2rem;
+  transition: all .3s ease;
+  cursor: pointer;
 }
 
+.equipo-miembro:hover{
+  transform: scale(1.1);
+}
+
+.equipo-centrado {
+  text-align: center;
+}
+
+.equipo-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.nombre {
+  text-align: center;
+  margin: 1.2rem;
+  font-family: "Monserrat", sans-serif;
+}
+
+.lorem{
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  border: 1px solid #506e55;
+  border-radius: 2rem;
+
+
+}
+.historia-texto{
+  display: flex;
+}
+.instrucciones-equipo{
+  padding: 2rem;
+}
+
+.instrucciones{
+  
+  margin-left: 22rem;
+  margin-right: 22rem;
+  margin-top: 1.2rem;
+}
+.texto{
+  font-size: 1.2rem;
+}

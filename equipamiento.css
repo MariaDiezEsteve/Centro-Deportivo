@@ -45,7 +45,6 @@ h3{
 .segondo-img{
     width: 30%;
     height: 70%;
-    text-align: center;
     position: relative;
     outline-offset: -1rem;
     overflow: hidden;
@@ -55,6 +54,7 @@ h3{
     box-shadow: 0 0 4rem #506e55;
     border-radius: 3rem;
 }
+
 
 .imagen_img {
     width: 100%;
@@ -93,6 +93,35 @@ p {
     margin-bottom: 2.5rem;    
 }
 
+/* Responsive tablet */
+@media screen and (min-width: 481px) and (max-width: 1023px){
+    .primero{
+        width: 100%;
+        height: 100%;
+      }
+      .segondo{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+     }
+     .segondo-img {
+        overflow:visible;
+        width: 30%;   
+    }
+    .tercero {
+        width:65%;
+       margin-bottom: 1rem;
+        padding-right: 1rem;   
+       }
+       .tercero p {
+        font-size: 0.9rem;
+        text-align: center;
+       }
+
+}
+
+
+/* Responsive mobile */
 
 @media screen and (max-width: 480px){
     .primero{
@@ -113,7 +142,7 @@ p {
      padding-right: 1rem;   
     }
     .tercero p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     text-align: center;
    }
 }
