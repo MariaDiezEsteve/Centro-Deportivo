@@ -9,7 +9,7 @@
 }
 
 section{
-    width: 100%;
+    width: 100%; 
     background-color: #afbcbb;
 }
 
@@ -132,9 +132,9 @@ img {
 }
 
 /* Responsive tablet */
-@media screen and (min-width: 481px) and (max-width: 1023px){
+@media screen and (min-width: 481px) and (max-width: 768px){
     section{
-        width: 105%;
+        width: 100%;
     }
     .path-colective {
         display: grid;
@@ -148,7 +148,7 @@ img {
 
 @media screen and (max-width: 480px){
     section{
-        width: 105%;
+        width: 100%;
     }
     .path-colective {
         display: flex;
