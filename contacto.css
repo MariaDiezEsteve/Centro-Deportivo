@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-section {
+.contenedor-total {
   background-color: #afbcbb;
 }
 
@@ -19,12 +19,11 @@ section {
   padding: 2.5rem;
   line-height: 2.5rem;
 }
-h1 {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 3rem;
-}
+
 
 .parrafoh1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
   text-align: center;
   padding: 1.75;
   color: #12394f;
@@ -143,11 +142,12 @@ h1 {
 
     /* Responsive tablet */
 
-@media screen and (min-width: 481px) and (max-width: 1023px) {
+    @media screen and (min-width: 481px) and (max-width: 768px){
   .envelope img {
-    width: 105%;
+    width: 100%;
     
   }
+
   .contenedor {
     width: 45%;
   }
