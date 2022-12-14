@@ -2,35 +2,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 *{
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-.contenedor-total {
+section {
   background-color: #afbcbb;
 }
 
 .parrafo-introduccion {
   /* font-family: "Bebas Neue", sans-serif; */
-  text-align: left;
+  /* text-align: left;
   line-height: 2.5rem;
-  padding: 2rem; 
+  padding: 2rem;  */
+  padding: 2.5rem;
+  line-height: 2.5rem;
+}
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
 }
 
+.parrafoh1 {
+  text-align: center;
+  padding: 1.75;
+  color: #12394f;
+}
+.imagenFondoconFormulario {
+  position: relative; 
+  margin: 0 auto;
+}
 .contenedor {
     width: 27rem;
     padding: 2rem;
     position: absolute;
     z-index: 1; 
-    top: 18rem;
+    top: 4.2rem;
     left: 0;
     right: 0rem;
     margin: 0 auto;
-    /* font-family: "Montserrat", sans-serif; */
+    
   }
   
+  /* #container-formulario{
+    padding-top: 3.9rem;
+  } */
   .envelope {
     text-align: center;
     position: relative;     
@@ -128,14 +145,14 @@
 
 @media screen and (min-width: 481px) and (max-width: 1023px) {
   .envelope img {
-    width: 42rem;
-    height: 36rem;
+    width: 105%;
+    
   }
   .contenedor {
-    top: 17rem;
+    width: 45%;
   }
 #container-formulario {
-  padding: 1.5rem;
+  padding: 1rem;
 }
   input::placeholder, textarea::placeholder {
     color: black;
@@ -167,19 +184,20 @@
       margin-top: 28rem;
     }
 
-    .contenedor {
-      background-color: #afbcbb;
-    }
-
-    .formulario {
+      .formulario {
       background-color: white;
       padding: 1rem;
     }
     .parrafo-proteccionDatos {
       padding: 1.8rem;
       width: 25rem;
-    margin: 0 auto; 
-    font-size: 0.63rem;
+      margin: 0 auto; 
+      font-size: 0.63rem;
+      padding-top: 15rem;
     }
+
+    .parrafo-introduccion {
+      margin-bottom: -5rem;
+    } 
   }
 
