@@ -4,6 +4,8 @@
 
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 section{
@@ -84,13 +86,12 @@ img {
     text-align: center;
 }
 
-p {
+.description {
     padding: 1rem 3rem;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
 }
-
 
 .family, .group, .extrem {
     margin: 2rem;
@@ -100,7 +101,7 @@ p {
     text-align: center;
 }
 
-i {
+.fa-sharp, .fa {
    color: #548bb0;
    padding: 2.5%;
 }
@@ -155,6 +156,5 @@ i {
         justify-content: center;
     }
 }
-
 
 
