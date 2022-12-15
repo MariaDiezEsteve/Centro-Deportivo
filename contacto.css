@@ -12,12 +12,9 @@
 }
 
 .parrafo-introduccion {
-  /* font-family: "Bebas Neue", sans-serif; */
-  /* text-align: left;
-  line-height: 2.5rem;
-  padding: 2rem;  */
   padding: 2.5rem;
   line-height: 2.5rem;
+  text-align: center;
 }
 
 
@@ -44,9 +41,6 @@
     
   }
   
-  /* #container-formulario{
-    padding-top: 3.9rem;
-  } */
   .envelope {
     text-align: center;
     position: relative;     
@@ -135,10 +129,29 @@
     font-size: 1.05rem;
     cursor: pointer;
   }
+/* animación para h1 */
 
-  /* .formulario {
-    padding-top: 7rem;
-  } */
+.parrafoh1 {
+  animation-name: movimiento;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+}
+ 
+@keyframes movimiento {
+  0% {
+    letter-spacing: -10px;
+}
+
+20% {
+    letter-spacing: 20px;
+}
+
+100% {
+    letter-spacing: 0px;
+} 
+  }
+
+/* fin de la animación en h1*/
 
     /* Responsive tablet */
 

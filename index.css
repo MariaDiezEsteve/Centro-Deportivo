@@ -275,6 +275,29 @@
   color: #fff;
 }
 
+/* animación para h1 */
+
+.parrafo_banner {
+  animation-name: movimiento;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+}
+ 
+@keyframes movimiento {
+  0% {
+    letter-spacing: -10px;
+}
+
+20% {
+    letter-spacing: 20px;
+}
+
+100% {
+    letter-spacing: 0px;
+} 
+  }
+
+/* fin de la animación en h1*/
 
 
 
