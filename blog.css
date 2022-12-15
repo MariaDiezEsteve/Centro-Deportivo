@@ -33,6 +33,34 @@ body{
     color: #12394f; 
 }
 
+.image1 {
+  width: 12rem;
+  height: 12rem;
+  background: url(./image/blog/ciclismo_noveades.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.image2 {
+  width: 12rem;
+  height: 12rem;
+  background: url(./image/blog/ciclismo_ruta.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.image3 {
+  width: 12rem;
+  height: 12rem;
+  background: url(./image/blog/ciclismo_montana.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+
 /* animación para h1 */
 
 .titulo_blog{
