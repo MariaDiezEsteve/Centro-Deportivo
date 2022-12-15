@@ -135,24 +135,29 @@
     font-size: 1.05rem;
     cursor: pointer;
   }
-/* animación para boton de envío */
+/* animación para h1 */
 
-.boton-envio {
+.parrafoh1 {
   animation-name: movimiento;
-  animation-duration: 1s;
-  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
 }
  
 @keyframes movimiento {
-  from {
-    background-color: #009e93;
+  0% {
+    letter-spacing: -10px;
+}
+
+20% {
+    letter-spacing: 20px;
+}
+
+100% {
+    letter-spacing: 0px;
+} 
   }
 
-  to {
-    background-color: #272626;
-  }
-}
-/* fin de la animación */
+/* fin de la animación en h1*/
 
   /* .formulario {
     padding-top: 7rem;
