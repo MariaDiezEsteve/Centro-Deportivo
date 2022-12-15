@@ -12,12 +12,9 @@
 }
 
 .parrafo-introduccion {
-  /* font-family: "Bebas Neue", sans-serif; */
-  /* text-align: left;
-  line-height: 2.5rem;
-  padding: 2rem;  */
   padding: 2.5rem;
   line-height: 2.5rem;
+  text-align: center;
 }
 
 
@@ -44,9 +41,6 @@
     
   }
   
-  /* #container-formulario{
-    padding-top: 3.9rem;
-  } */
   .envelope {
     text-align: center;
     position: relative;     
@@ -135,28 +129,29 @@
     font-size: 1.05rem;
     cursor: pointer;
   }
-/* animación para boton de envío */
+/* animación para h1 */
 
-.boton-envio {
+.parrafoh1 {
   animation-name: movimiento;
-  animation-duration: 1s;
-  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
 }
  
 @keyframes movimiento {
-  from {
-    background-color: #009e93;
-  }
-
-  to {
-    background-color: #272626;
-  }
+  0% {
+    letter-spacing: -10px;
 }
-/* fin de la animación */
 
-  /* .formulario {
-    padding-top: 7rem;
-  } */
+20% {
+    letter-spacing: 20px;
+}
+
+100% {
+    letter-spacing: 0px;
+} 
+  }
+
+/* fin de la animación en h1*/
 
     /* Responsive tablet */
 
@@ -201,10 +196,15 @@
     .div-fondoDatos {
       margin-top: 28rem;
     }
-
+.contenedor {
+  width: 100%;
+  text-align: center;
+  
+}
       .formulario {
       background-color: white;
       padding: 1rem;
+      
     }
     .parrafo-proteccionDatos {
       padding: 1.8rem;
