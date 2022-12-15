@@ -196,10 +196,15 @@
     .div-fondoDatos {
       margin-top: 28rem;
     }
-
+.contenedor {
+  width: 100%;
+  text-align: center;
+  
+}
       .formulario {
       background-color: white;
       padding: 1rem;
+      
     }
     .parrafo-proteccionDatos {
       padding: 1.8rem;
