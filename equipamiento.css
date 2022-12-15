@@ -38,8 +38,8 @@ h3{
     align-items: center;
     justify-content: flex-start;
     text-align: center;
-    width: 95%;
-    height: 20rem;    
+    width: 97%;
+    height: 10%;    
 }
 
 .segondo-img{
@@ -50,7 +50,6 @@ h3{
     overflow: hidden;
     isolation: isolate;
     margin: 5rem;
-    background-color: #afbcbb;
     box-shadow: 0 0 4rem #506e55;
     border-radius: 3rem;
     overflow: visible;
@@ -58,7 +57,7 @@ h3{
 
 
 .imagen_img {
-    width: 95%;
+    width: 94%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.25s;
@@ -66,17 +65,20 @@ h3{
     border: double 0.5rem #506e55;
     border-radius: 30%;  
 }
+img {
+    object-fit: scale-down;
+    width: 110%;
+    height: 100%;
+    text-align: center;
+    
+   
+}
 
 .segondo-img:hover .imagen_img {
     transform: scale(1.5);
 }
 
-img {
-    object-fit: scale-down;
-    width: 90%;
-    height: 110%;
-    text-align: center;
-}
+
 
 .tercero{
     background-color: #afbcbb;
