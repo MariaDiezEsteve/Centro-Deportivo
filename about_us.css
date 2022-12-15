@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
 }
 
 
@@ -98,6 +97,7 @@ h3{
   margin: 2rem;
   background-color: white;
 }
+
 .historia-texto{
   display: flex;
 }
@@ -106,7 +106,6 @@ h3{
 }
 
 .instrucciones{
-  
   margin-left: 22rem;
   margin-right: 22rem;
   margin-top: 1.2rem;
@@ -133,4 +132,42 @@ button {
 button:hover{
   font-size: 1.05rem;
   cursor: pointer;
+}
+
+/* Responsive tablet */
+@media screen and (min-width: 481px) and (max-width: 768px){
+  .nosotros-descripcion, .parte-equipo {
+    margin-left: 5rem;
+    margin-right: 7rem;
+    margin-bottom: 2rem;
+}
+  .foto-montaña1 {
+    width: 75%;
+  }
+  .historia-texto {
+    width: 85%;
+    flex-direction: column;
+    margin-left: 10%;
+  }
+
+  .texto {
+    font-size: 0.9rem;
+  }
+
+  .lorem {
+    font-size: 0.9rem;
+  }
+
+  .instrucciones{
+    margin-left: 4rem;
+    margin-right: 2rem;
+    margin-top: 0.9rem;
+  }
+  }
+
+
+/* Responsive mobile */
+
+@media screen and (max-width: 480px){
+  
 }
