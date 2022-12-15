@@ -56,3 +56,26 @@ body{
   }
 
 /* fin de la animación en h1*/
+
+/* estilos para el botón de contacto */
+.boton-contactanos{
+  text-align: center;
+  padding: 2rem;
+}
+
+button {
+  color: white;
+  background-color: #009e93;
+  border-radius: 0.2rem;
+  border: 0.1rem solid #009e93;
+  padding: 0.9rem;
+  font-size: 1rem;
+  border-radius: 2rem;
+}
+
+button:hover{
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+
+/* Fin de estilos para el botón de contacto */
