@@ -12,12 +12,9 @@
 }
 
 .parrafo-introduccion {
-  /* font-family: "Bebas Neue", sans-serif; */
-  /* text-align: left;
-  line-height: 2.5rem;
-  padding: 2rem;  */
   padding: 2.5rem;
   line-height: 2.5rem;
+  text-align: center;
 }
 
 
@@ -44,9 +41,6 @@
     
   }
   
-  /* #container-formulario{
-    padding-top: 3.9rem;
-  } */
   .envelope {
     text-align: center;
     position: relative;     
@@ -158,10 +152,6 @@
   }
 
 /* fin de la animación en h1*/
-
-  /* .formulario {
-    padding-top: 7rem;
-  } */
 
     /* Responsive tablet */
 
