@@ -94,6 +94,30 @@ img {
     margin-bottom: 2.5rem;    
 }
 
+/* animación para h1 */
+
+.equipamiento {
+    animation-name: movimiento;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+  }
+   
+  @keyframes movimiento {
+    0% {
+      letter-spacing: -10px;
+  }
+  
+  20% {
+      letter-spacing: 20px;
+  }
+  
+  100% {
+      letter-spacing: 0px;
+  } 
+    }
+  
+  /* fin de la animación en h1*/
+
 /* Responsive tablet */
 @media screen and (min-width: 481px) and (max-width: 1023px){
     .primero{
