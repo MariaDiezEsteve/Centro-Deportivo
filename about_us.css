@@ -169,5 +169,31 @@ button:hover{
 /* Responsive mobile */
 
 @media screen and (max-width: 480px){
-  
+  .foto-montaña1 {
+    width: 69%;
+    height: 70%;
+  }
+  .nosotros-descripcion, .parte-equipo {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+}
+.historia-texto {
+  width: 75%;
+  flex-direction: column;
+  margin-left: 10%;
+}
+.texto {
+  font-size: 0.9rem;
+}
+
+.lorem {
+  font-size: 0.9rem;
+}
+
+.instrucciones{
+  margin-left: 4rem;
+  margin-right: 2rem;
+  margin-top: 0.9rem;
+}
 }

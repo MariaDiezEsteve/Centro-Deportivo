@@ -135,6 +135,24 @@
     font-size: 1.05rem;
     cursor: pointer;
   }
+/* animación para boton de envío */
+
+.boton-envio {
+  animation-name: movimiento;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+ 
+@keyframes movimiento {
+  from {
+    background-color: #009e93;
+  }
+
+  to {
+    background-color: #272626;
+  }
+}
+/* fin de la animación */
 
   /* .formulario {
     padding-top: 7rem;
