@@ -12,7 +12,7 @@ En este club tienen cabida todas las personas, a las que les unen estas dos pasi
 
 ## Mapa Web
 
-Todas las páginas webs tiene incluido el logo de Comonbike (bicicleta) como favicon.
+Todas las páginas webs tiene incluido el logo de Comonbike (una bicicleta) como favicon.
 
 HOME
 
