@@ -3,9 +3,9 @@ var imagenes = [];
 var time = 2000;
 
 //lista de imagenes
-imagenes[0] = "./img/bike.png";
-imagenes[1] = "./img/banner2.jpg";
-imagenes[2] = "./img/banner3.jpg";
+imagenes[0] = "./img/bike-1.jpg";
+imagenes[1] = "./img/banner-2.jpg";
+imagenes[2] = "./img/banner-3.jpg";
 
 function cambiarBanner() {
   console.log("imagen del banner");
