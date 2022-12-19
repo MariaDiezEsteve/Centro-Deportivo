@@ -12,9 +12,9 @@ function cambiarBanner() {
   var slider = document.getElementById("slider");
   if (i < imagenes.length) {
     console.log("contador"+i);
-    //Agregar imagenes de fondo del banner
+    //Agregar imagenes de fondo del banner (background-image)se crea aqui
     slider.style.backgroundImage= `url(${imagenes[i]})`;
-    i++;
+    i++;git 
   } else {
     i = 0;
   }
