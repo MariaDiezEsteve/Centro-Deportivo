@@ -12,6 +12,8 @@ En este club tienen cabida todas las personas, a las que les unen estas dos pasi
 
 ## Mapa Web
 
+Todas las páginas webs tiene incluido el logo de Comonbike (bicicleta) como favicon.
+
 HOME
 
 Página principal creada con HTML: index.html, CSS: index.css y JavaScript: banner.js
