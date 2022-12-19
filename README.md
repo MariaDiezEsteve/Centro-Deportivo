@@ -109,22 +109,27 @@ Las personas integrantes de este Club Deportivo se describen a continuación:
 Socios Fundadores: 
 
 * Yorlin Fabián Pachajoa
+
 LinkedIn: https://www.linkedin.com/in/yorlinpachajoa-it 
 GitHub: https://github.com/YorlinPacha
 
 * Jessica Mosteiro
+
 LinkedIn: https://www.linkedin.com/in/jessica-mosteiro/
 GitHub: https://github.com/JJessa
 
 * María Diez
+
 LinkedIn: https://www.linkedin.com/in/mariadiezesteve/ 
 GitHub: https://github.com/MariaDiezEsteve 
 
 * Mohamed El Ibrahimi
+
 LinkedIn: https://www.linkedin.com/in/mohamed-el-ibrahimi-83a0b6259/ 
 GitHub: https://github.com/Medibra322
 
 * Xabier Iglesias
+
 LinkedIn: https://www.linkedin.com/in/xabier-iglesias-astoreca/
 GitHub: https://github.com/xabieria 
 
