@@ -14,18 +14,20 @@ En este club tienen cabida todas las personas, a las que les unen estas dos pasi
 
 HOME
 
-Página principal creada con HTML: index.html y CSS: index.css. 
+Página principal creada con HTML: index.html, CSS: index.css y JavaScript: banner.js
 Incluye responsive en el diseño.
-(Pendiente de incluir javascript)
 
 Actúa como presentación del club deportivo, y tiene enlaces a las diferentes páginas (Nosotros, Actividades y Equipamiento) incluidas en la web.
+
+Tiene un slider de imagenes que aparecen cada dos segundos automáticamente, representado las rutas de ciclismo de montaña.
+
 
 NOSOTROS
 
 Página creada con HTML: about_us.html y CSS: about_us.css
 Incluye responsive en el diseño.
 
-Descripción del club deportivo junto con la información sobre los miembros fundadores del club, su historia y los requerimientos para ser parte de nuestro equipo.
+Descripción del club deportivo junto con la información sobre los miembros fundadores del club, su historia y los requerimientos para ser parte del equipo.
 
 Además, se incluye un botón con un link de acceso a la página de contacto.
 
@@ -37,7 +39,7 @@ Incluye responsive en el diseño.
 
 Descripción de las actividades que se realizan en el club deportivo de montaña Comonbike, que se distribuyen, por niveles de experiencia, en: familia, grupo y extremo.
 
-Cada una de las actividades está representada por una foto, una ruta y una descripción de la actividad que se puede realizar.
+Cada una de las actividades esta representada por una foto, una ruta y una descripción de la actividad que se puede realizar.
 
 Se incluye un mapa de google de las rutas para realizar las distintas actividades ubicadas en Vizcaya.
 
@@ -57,9 +59,9 @@ CONTACTO
 Página creada con HTML: contacto.html y CSS: contacto.css
 Incluye responsive en el diseño.
 
-Formulario de contacto para los usuarios con el objetivo de enviar al club de montaña Comonbike cualquier pregunta o sugerencia que pueda surgir a los navegantes de la web. 
+Formulario de contacto para los usuarios que tiene como objetivo enviar al club de montaña Comonbike cualquier pregunta o sugerencia que pueda surgir a los navegantes de la web. 
 
-Este formulario está compuestos por los siguientes requisitos: nombre, teléfono, email, dinos que necesitas (selctor con las siguientes opciones disponibles: información sobre nuestro club, apuntarme a actividades, alquiler de equipamiento y otros), calendario de fechas y un espacio para escribir un comentario.
+Este formulario está compuestos por los siguientes requisitos: nombre, teléfono, email, dinos que necesitas (selector con las siguientes opciones disponibles: información sobre nuestro club, apuntarme a actividades, alquiler de equipamiento y otros), calendario de fechas y un espacio para escribir un comentario.
 
 Se incluye información sobre el tratamiento de datos del usuario por parte del club deportivo Comonbike, y un checkbox para aceptar las condiciones y el aviso legal.
 
@@ -111,25 +113,30 @@ Socios Fundadores:
 * Yorlin Fabián Pachajoa
 
 LinkedIn: https://www.linkedin.com/in/yorlinpachajoa-it 
+
 GitHub: https://github.com/YorlinPacha
 
 * Jessica Mosteiro
 
 LinkedIn: https://www.linkedin.com/in/jessica-mosteiro/
+
 GitHub: https://github.com/JJessa
 
 * María Diez
 
 LinkedIn: https://www.linkedin.com/in/mariadiezesteve/ 
+
 GitHub: https://github.com/MariaDiezEsteve 
 
 * Mohamed El Ibrahimi
 
 LinkedIn: https://www.linkedin.com/in/mohamed-el-ibrahimi-83a0b6259/ 
+
 GitHub: https://github.com/Medibra322
 
 * Xabier Iglesias
 
 LinkedIn: https://www.linkedin.com/in/xabier-iglesias-astoreca/
+
 GitHub: https://github.com/xabieria 
 
